@@ -19,6 +19,7 @@ class XeggexApi implements PriceFeed {
   public currencies: string[] = ['USDT'];
 
   public url: string = 'https://api.xeggex.com/api/v2/ticker/FEC_USDT';
+  public urlHist: string = 'https://api.xeggex.com/api/v2/market/candles?symbol=FEC%2FUSDT&resolution=30&countBack=336&firstDataRequest=1';
 
   constructor() {
   }
