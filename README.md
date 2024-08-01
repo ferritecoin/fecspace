@@ -1,4 +1,14 @@
-# Ferrite Space
+
+<div align="center">
+  <h1>
+    Ferritecoin Mempool Explorer
+  </h1>
+  <p>
+    <i>fecspace | ferritepool | ferrite space</i>
+  </p>
+</div>
+
+![banner_transparent_border](https://github.com/user-attachments/assets/dd5f5fcc-8da0-4e1b-bf94-77692f67adf0)
 
 <br>
 
