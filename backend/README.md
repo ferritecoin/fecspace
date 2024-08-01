@@ -22,13 +22,6 @@ git clone https://github.com/ferritecoin/fecspace
 cd fecspace
 ```
 
-Check out the latest release:
-
-```
-latestrelease=$(curl -s https://api.github.com/repos/ferritecoin/ferritepool/releases/latest|grep tag_name|head -1|cut -d '"' -f4)
-git checkout $latestrelease
-```
-
 ### 2. Configure Ferrite Core
 
 Turn on `txindex`, enable RPC, and set RPC credentials in `ferrite.conf`:
