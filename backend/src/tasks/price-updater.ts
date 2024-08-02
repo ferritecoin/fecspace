@@ -1,10 +1,10 @@
 import config from '../config';
 import logger from '../logger';
 import PricesRepository, { ApiPrice, MAX_PRICES } from '../repositories/PricesRepository';
-//import BitfinexApi from './price-feeds/bitfinex-api';
-//import CoinbaseApi from './price-feeds/coinbase-api';
-//import GeminiApi from './price-feeds/gemini-api';
-//import KrakenApi from './price-feeds/kraken-api';
+import BitfinexApi from './price-feeds/bitfinex-api';
+import CoinbaseApi from './price-feeds/coinbase-api';
+import GeminiApi from './price-feeds/gemini-api';
+import KrakenApi from './price-feeds/kraken-api';
 import XeggexApi from './price-feeds/xeggex-api';
 
 export interface PriceFeed {
