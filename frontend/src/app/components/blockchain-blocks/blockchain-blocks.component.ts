@@ -296,7 +296,7 @@ export class BlockchainBlocksComponent implements OnInit, OnChanges, OnDestroy {
       addLeft = animateEnterFrom || 0;
     }
 
-    // LTCbrand: block cube background
+    // FECbrand: block cube background
     return {
       left: addLeft + this.blockOffset * index + 'px',
       background: `repeating-linear-gradient(

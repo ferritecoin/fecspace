@@ -1,15 +1,15 @@
 {
-  "name": "mempool-ltc-backend",
+  "name": "mempool-fec-backend",
   "version": "2.6.0-dev",
   "description": "Ferrite mempool visualizer and blockchain explorer backend",
   "license": "GNU Affero General Public License v3.0",
   "homepage": "https://ferritecoin.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mempool/mempool"
+    "url": "git+https://github.com/ferritecoin/fecspace"
   },
   "bugs": {
-    "url": "https://github.com/mempool/mempool/issues"
+    "url": "https://github.com/ferritecoin/fecspace/issues"
   },
   "keywords": [
     "ferrite",

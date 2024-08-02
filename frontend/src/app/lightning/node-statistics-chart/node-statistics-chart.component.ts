@@ -190,7 +190,7 @@ export class NodeStatisticsChartComponent implements OnInit {
           axisLabel: {
             color: 'rgb(110, 112, 121)',
             formatter: (val) => {
-              return `${val / 100000000} LTC`;
+              return `${val / 100000000} FEC`;
             }
           },
           splitLine: {

@@ -8773,7 +8773,7 @@ export const faqData = [
     category: "basics",
     showConditions: bitcoinNetworks,
     fragment: "what-is-svb",
-    title: "What is lit/vB?",
+    title: "What is atom/vB?",
   },
   {
     type: "category",

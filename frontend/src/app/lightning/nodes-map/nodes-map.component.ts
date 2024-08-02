@@ -202,8 +202,8 @@ export class NodesMap implements OnInit, OnChanges {
               const data = value.data;
               const alias = data[3].length > 0 ? data[3] : data[4].slice(0, 20);
               const liquidity = data[2] >= 100000000 ?
-                `${this.amountShortenerPipe.transform(data[2] / 100000000)} LTC` :
-                `${this.amountShortenerPipe.transform(data[2], 2)} sats`;
+                `${this.amountShortenerPipe.transform(data[2] / 100000000)} FEC` :
+                `${this.amountShortenerPipe.transform(data[2], 2)} atoms`;
 
               return `
                 <b style="color: white">${alias}</b><br>

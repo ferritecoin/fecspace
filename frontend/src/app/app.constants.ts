@@ -1,4 +1,4 @@
-export const mempoolFeeColors = [ // LTCbrand: mempool block colours
+export const mempoolFeeColors = [ // FECbrand: mempool block colours
   '0BAF6E', // green
   '20C572',
   '40C884',
