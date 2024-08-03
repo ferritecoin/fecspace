@@ -54,7 +54,7 @@ export class ElectrsApiService {
   }
 
   getBlockTransactions$(hash: string, index: number = 0): Observable<Transaction[]> {
-    return this.httpClient.get<Transaction[]>(this.apiBaseUrl + this.apiBasePath + '/api/block/' + hash + '/txs/' + index);
+    return this.httpClient.get<Transaction[]>(this.apiBaseUrl + this.apiBasePath + '/api/block/' + hash + '/summary/');
   }
 
   getBlockHashFromHeight$(height: number): Observable<string> {
