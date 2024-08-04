@@ -59,7 +59,9 @@ tmpfs                                3.0G    1.9G    1.1G    63%    /bisq/statsn
 You'll probably need these:
 
 ```
-pkg install -y zsh sudo git screen curl wget neovim rsync nginx openssl openssh-portable py38-pip py38-certbot-nginx boost-libs autoconf automake gmake gcc libevent libtool pkgconf mariadb105-server mariadb105-client
+sudo apt update
+sudo apt upgrade
+sudo apt install -y zsh sudo git screen curl wget neovim rsync nginx openssl openssh-server python3-pip python3-certbot-nginx libboost-all-dev autoconf automake make gcc libevent-dev libtool pkg-config mariadb-server mariadb-client
 ```
 
 ### Node.js + npm
@@ -152,7 +154,7 @@ rpcbind=127.0.0.1:19332
 
 ### Electrs
 
-Install [electrs-ltc-esplora](https://github.com/rust-ferrite/electrs-ltc/tree/esplora) from source:
+Install [electrs-ltc-esplora](https://github.com/rust-ferrite/electrs-fec/tree/esplora) from source:
 
 ```
 git clone https://github.com/rust-ferrite/electrs-ltc/
